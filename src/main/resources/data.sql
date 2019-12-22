@@ -10,6 +10,8 @@ CREATE TABLE IF NOT EXISTS writers (
   id INT AUTO_INCREMENT  PRIMARY KEY,
   name VARCHAR(255) NOT NULL
 );
+
+
 INSERT INTO writers VALUES (1, 'Dostoyevski'); 
 INSERT INTO writers VALUES (2, 'Tolstoy');
 INSERT INTO books (id,book_name,writer_id,category_name,edition_year,publisher) VALUES (1,'Yer altından notlar','1','Klasik','2017','Is Bankasi');
