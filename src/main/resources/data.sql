@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS writers (
   name VARCHAR(255) NOT NULL
 );
 
-
 INSERT INTO writers VALUES (1, 'Dostoyevski'); 
 INSERT INTO writers VALUES (2, 'Tolstoy');
 INSERT INTO writers VALUES (3, 'Goncarov');
