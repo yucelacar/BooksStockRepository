@@ -1,5 +1,7 @@
 # BooksStock
 SpringBoot, Maven, Rest WS
+Database olarak H2Database kullanıldı.
+Proje başlatıldığında Tablolar oluşturuluyor.
 
 
 /books/getAll -Butun Kayıtlı kitapları getirir.
