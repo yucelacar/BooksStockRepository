@@ -12,3 +12,5 @@ CREATE TABLE IF NOT EXISTS writers (
 );
 INSERT INTO writers VALUES (1, 'Dostoyevski'); 
 INSERT INTO writers VALUES (2, 'Tolstoy');
+INSERT INTO books (id,book_name,writer_id,category_name,edition_year,publisher) VALUES (1,'Yer altından notlar','1','Klasik','2017','Is Bankasi');
+INSERT INTO books (id,book_name,writer_id,category_name,edition_year,publisher) VALUES (2,'Savas ve Baris','2','Klasik','2014','Can');
