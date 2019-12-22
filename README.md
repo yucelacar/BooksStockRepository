@@ -3,7 +3,7 @@ SpringBoot, Maven, Rest WS
 Database olarak H2Database kullanıldı.
 Proje başlatıldığında Tablolar oluşturuluyor.
 
-
+Servisler:
 /books/getAll -Butun Kayıtlı kitapları getirir.
 
 /books/delete?writerId={Id} --Gonderilen yazar idli yazarı ve varsa kitaplarını siler.
